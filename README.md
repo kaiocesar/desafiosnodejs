@@ -18,3 +18,10 @@ correspondente. Se o pathname estive vazio significa que deve renderizar a pági
 2) Você também pode inserir conteúdo html na função: response.end(html), economizando linha de código ao não utilizar a função: response.write(html);
 
 3) Utilize a função: fs.exists(html) para verificar se existe o html com o mesmo nome do pathname digitado.
+
+
+## Desafio 2
+benchmark - comparar velocidade de requisição utilizando as duas formas de requisição I/O não bloqueante (Assíncrona)
+e bloqueante (Sincrona)
+
+- Crie 3 arquivos (processamento.js, leitura_async.js e leitura_sync.js)
